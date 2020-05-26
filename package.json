@@ -1,0 +1,26 @@
+{
+  "name": "wedding-mailer",
+  "version": "1.0.0",
+  "description": "Automate email sending through gmail to guests",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^40.0.0",
+    "nodemailer": "^6.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "send-emails": "node index.js",
+    "send-test-emails": "env MAILER_ENV=test node index.js",
+    "show-logs": "env MAILER_ENV=log node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
