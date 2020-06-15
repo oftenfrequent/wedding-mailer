@@ -18,8 +18,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "send-emails": "node index.js",
-    "send-test-emails": "env MAILER_ENV=test node index.js",
-    "show-logs": "env MAILER_ENV=log node index.js"
+    "send-test-emails": "env MAILER_ENV=test node index.js"
   },
   "author": "",
   "license": "ISC"
